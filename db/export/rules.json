@@ -1,0 +1,26 @@
+{ "_id" : { "$oid" : "53897a207b91f533c95abe7f" }, "type" : "Vowel Rules", "rule" : "Vowels that are next to each other should be ran together to create one sound", "example" : "eElo", "notes" : "keUt = cute", "displayOrder" : "1" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe80" }, "type" : "Gender", "rule" : "Gender is rarely specified, but if it is necessary, use the following rules", "example" : "", "notes" : "", "displayOrder" : "2" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe81" }, "type" : "Gender", "rule" : "To make something masculine, add \"je\" after the word", "example" : "Uta je", "notes" : "Uta je = male cow", "displayOrder" : "3" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe82" }, "type" : "Gender", "rule" : "To make something feminine, add \"ja\" after the word", "example" : "Uta ja", "notes" : "Uta ja = female cow", "displayOrder" : "4" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe83" }, "type" : "People and Action", "rule" : "To show someone who does something (like adding \"er\" to the end of a verb)", "example" : "taU...", "notes" : "taU... = the one who does...", "displayOrder" : "5" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe84" }, "type" : "People and Action", "rule" : "To show someone who does something with something", "example" : "taU... e...", "notes" : "taU... e... = the one who does... with...", "displayOrder" : "6" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe85" }, "type" : "Comparison", "rule" : "To add \"er\" to an adjective for comparison (bigger, etc...)", "example" : "akU", "notes" : "akU", "displayOrder" : "7" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe86" }, "type" : "Comparison", "rule" : "To add \"est\" to an adjective for comparison (biggest, etc...)", "example" : "ake", "notes" : "ake: Meaning isn't necessarily absolute (not the absolute biggest).  Used to make a point unless combined with \"Et\" (THE biggest)", "displayOrder" : "8" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe87" }, "type" : "This and That", "rule" : "This", "example" : "kea", "notes" : "kea", "displayOrder" : "9" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe88" }, "type" : "This and That", "rule" : "That", "example" : "nea", "notes" : "nea", "displayOrder" : "10" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe89" }, "type" : "This and That", "rule" : "That over there", "example" : "pea", "notes" : "pea", "displayOrder" : "11" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe8a" }, "type" : "Pronouns", "rule" : "I/Me", "example" : "ke", "notes" : "ke", "displayOrder" : "12" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe8b" }, "type" : "Pronouns", "rule" : "You", "example" : "te", "notes" : "te", "displayOrder" : "13" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe8c" }, "type" : "Pronouns", "rule" : "He/She (use gender identifiers if necessary)", "example" : "re", "notes" : "re", "displayOrder" : "14" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe8d" }, "type" : "Pronouns", "rule" : "We/Us", "example" : "ce", "notes" : "ce", "displayOrder" : "15" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe8e" }, "type" : "Pronouns", "rule" : "They/Them (refers only to a group)", "example" : "ne", "notes" : "ne", "displayOrder" : "16" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe8f" }, "type" : "Pronouns", "rule" : "It", "example" : "ve", "notes" : "ve", "displayOrder" : "17" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe90" }, "type" : "Pronouns", "rule" : "Somebody", "example" : "ze", "notes" : "ze", "displayOrder" : "18" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe91" }, "type" : "Pronouns", "rule" : "Anybody", "example" : "pe", "notes" : "pe", "displayOrder" : "19" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe92" }, "type" : "Pronouns", "rule" : "Everybody", "example" : "he", "notes" : "he", "displayOrder" : "20" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe93" }, "type" : "Pronouns", "rule" : "Nobody", "example" : "ge", "notes" : "ge", "displayOrder" : "21" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe94" }, "type" : "Possession", "rule" : "To show possession ad \"Na\" after noun or pronoun", "example" : "kea ke Na homa ka tae", "notes" : "kea ke Na homa ka tae = This is my book", "displayOrder" : "22" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe95" }, "type" : "Miscellaneous", "rule" : "Adjectives follow the noun/pronoun and are shown by using \"a\"", "example" : "kea ke Na homa a capa ka tae", "notes" : "kea ke Na homa a capa nA ka tae = This is my brown book", "displayOrder" : "23" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe96" }, "type" : "Miscellaneous", "rule" : "To make any statement or word negative or opposite add \"nA\"", "example" : "kea ke Na homa nA ka tae", "notes" : "kea ke Na homa nA ka tae", "displayOrder" : "24" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe97" }, "type" : "Miscellaneous", "rule" : "To make any word plural add \"s\" or \"is\"", "example" : "(i)s", "notes" : "\"i\" is used when the word ends with a consonent", "displayOrder" : "25" }
+{ "_id" : { "$oid" : "53897a207b91f533c95abe98" }, "type" : "Miscellaneous", "rule" : "Sentence structure is set up as [Subject] [Object] [Action]", "example" : "ke hejas dasol tae", "notes" : "I like clouds = ke hejas dasol tae = I clouds like", "displayOrder" : "26" }

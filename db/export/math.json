@@ -1,0 +1,37 @@
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe5a" }, "type" : "math", "numeral" : "1+1=2", "spelling" : "san jUs san resik bAS" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe5b" }, "type" : "math", "numeral" : "1-1=0", "spelling" : "san los san resik mIs" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe5c" }, "type" : "math", "numeral" : "6/3=2", "spelling" : "nic tan kan resik bAS" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe5d" }, "type" : "math", "numeral" : "6*3=18", "spelling" : "nic po kan resik kuNzOf" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe5e" }, "type" : "number", "numeral" : "0", "spelling" : "mIs" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe5f" }, "type" : "number", "numeral" : "1", "spelling" : "san" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe60" }, "type" : "number", "numeral" : "2", "spelling" : "bAS" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe61" }, "type" : "number", "numeral" : "3", "spelling" : "kan" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe62" }, "type" : "number", "numeral" : "4", "spelling" : "tES" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe63" }, "type" : "number", "numeral" : "5", "spelling" : "zem" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe64" }, "type" : "number", "numeral" : "6", "spelling" : "nic" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe65" }, "type" : "number", "numeral" : "7", "spelling" : "toS" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe66" }, "type" : "number", "numeral" : "8", "spelling" : "zOf" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe67" }, "type" : "number", "numeral" : "9", "spelling" : "rUs" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe68" }, "type" : "number", "numeral" : "10", "spelling" : "kuN" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe69" }, "type" : "number", "numeral" : "11", "spelling" : "kuNsan" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe6a" }, "type" : "number", "numeral" : "12", "spelling" : "kuNbAS" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe6b" }, "type" : "number", "numeral" : "13", "spelling" : "kuNkan" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe6c" }, "type" : "number", "numeral" : "20", "spelling" : "bASkuN" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe6d" }, "type" : "number", "numeral" : "21", "spelling" : "bASkuNsan" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe6e" }, "type" : "number", "numeral" : "100", "spelling" : "kaf" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe6f" }, "type" : "number", "numeral" : "101", "spelling" : "kaf san" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe70" }, "type" : "number", "numeral" : "110", "spelling" : "kaf kuN" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe71" }, "type" : "number", "numeral" : "111", "spelling" : "kaf kuNsan" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe72" }, "type" : "number", "numeral" : "120", "spelling" : "kaf bASkuN" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe73" }, "type" : "number", "numeral" : "121", "spelling" : "kaf bASkuNsan" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe74" }, "type" : "number", "numeral" : "200", "spelling" : "bASkaf" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe75" }, "type" : "number", "numeral" : "201", "spelling" : "bASkaf san" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe76" }, "type" : "number", "numeral" : "1000", "spelling" : "ken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe77" }, "type" : "number", "numeral" : "2000", "spelling" : "bASken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe78" }, "type" : "number", "numeral" : "10000", "spelling" : "kuNken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe79" }, "type" : "number", "numeral" : "20000", "spelling" : "bASkuNken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe7a" }, "type" : "number", "numeral" : "100000", "spelling" : "kafken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe7b" }, "type" : "number", "numeral" : "200000", "spelling" : "bASkafken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe7c" }, "type" : "number", "numeral" : "1000000", "spelling" : "bASteken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe7d" }, "type" : "number", "numeral" : "2000000", "spelling" : "bASbASteken" }
+{ "_id" : { "$oid" : "538964bb7b91f533c95abe7e" }, "type" : "number", "numeral" : "5230489", "spelling" : "zembASteken bASkaf kankuNken tESkaf zOfkuNrUs" }
