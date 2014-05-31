@@ -4,7 +4,8 @@ var port = parseInt(process.env.PORT, 10) || 8080,
 	app = express(),
 	alphabet = require('./routes/alphabet'),
 	math = require('./routes/math'),
-	rules = require('./routes/rules');
+	rules = require('./routes/rules'),
+	verbs = require('./routes/verbs');
 
 app.use(bodyParser.urlencoded());
 
@@ -25,6 +26,12 @@ app.get('/rules/:type', rules.getByType);
 app.post('/rules', rules.add);
 app.put('/rules/:id', rules.update);
 app.delete('/rules/:id', rules.delete);
+
+app.get('/verbs', verbs.getAll);
+app.get('/verbs/:type', verbs.getByType);
+app.post('/verbs', verbs.add);
+app.put('/verbs/:id', verbs.update);
+app.delete('/verbs/:id', verbs.delete);
 
 app.listen(port);
 console.log('Now serving the app at http://localhost:' + port + '/');
