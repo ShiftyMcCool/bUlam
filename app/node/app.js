@@ -8,6 +8,11 @@ var port = parseInt(process.env.PORT, 10) || 8080,
 	verbs = require('./routes/verbs');
 
 app.use(bodyParser.urlencoded());
+app.use(function(req, res, next) {
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, Accept");
+	next();
+});
 
 app.get('/alphabet', alphabet.getAll);
 app.get('/alphabet/:type', alphabet.getByType);

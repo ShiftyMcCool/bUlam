@@ -1,10 +1,7 @@
 'use strict';
 
-angular.module('bUlamApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+var mainController = angular.module('mainController', [] );
+
+mainController.controller('mainController', function($scope,$route,$location) {
+
+});

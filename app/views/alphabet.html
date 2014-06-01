@@ -1,0 +1,33 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li><a ng-href="#/">Home</a></li>
+    <li class="active"><a ng-href="#/alphabet">Alphabet</a></li>
+    <li><a ng-href="#">Rules</a></li>
+    <li><a ng-href="#">Verbs</a></li>
+    <li><a ng-href="#">Examples</a></li>
+  </ul>
+  <h3 class="text-muted"><span class="bUlam">bUlam</span> (bUlam)</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>Alphabet</h1>
+
+  <table class="alphabet">
+    <tr>
+      <td class="alphabet">Key</td>
+      <td class="alphabet">Glyph</td>
+      <td class="alphabet">Sound</td>
+      <td class="alphabet">Meaning</td>
+    </tr>
+    <tr ng-repeat="glyph in consonants">
+      <td class="alphabet">{{glyph.key}}</td> 
+      <td class="alphabet bUlam">{{glyph.key}}</td> 
+      <td class="alphabet">{{glyph.sound}}</td> 
+      <td class="alphabet">{{glyph.meaning}}</td>
+    </tr>
+  </table>
+</div>
+
+<div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+</div>
