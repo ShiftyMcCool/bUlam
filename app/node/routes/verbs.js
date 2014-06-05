@@ -1,10 +1,10 @@
-var db = require('mongojs').connect('bUlam', ['rules']),
+var db = require('mongojs').connect('bUlam', ['verbs']),
 	commonLib = require('../common/lib');
 
 exports.getAll = function(req, res) {
 	var type = req.params.type;
 
-	db.rules.find(function(err, ptd) {
+	db.verbs.find(function(err, ptd) {
 		if( err || !ptd) {
 			console.log('No data found');
 			res.end();
@@ -18,7 +18,7 @@ exports.getAll = function(req, res) {
 exports.getByType = function(req, res) {
 	var type = req.params.type;
 
-	db.rules.find({type:type},function(err, ptd) {
+	db.verbs.find({type:type},function(err, ptd) {
 		if( err || !ptd) {
 			console.log('No data found');
 			res.end();
