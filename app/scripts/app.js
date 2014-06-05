@@ -5,8 +5,10 @@ var app = angular.module('bUlamApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'alphabetController',
-  'alphabetService'
+  'controller',
+  'alphabetService',
+  'ruleService',
+  'verbService'
 ]);
 
 app.config(function($routeProvider) {
@@ -23,6 +25,24 @@ app.config(function($routeProvider) {
       },
       consonants: function(alphabet) {
         return alphabet.getAlphabet();
+      }
+    }
+  })
+  .when('/rules', {
+    controller:'ruleController',
+    templateUrl:'/views/rules.html',
+    resolve: {
+      rules: function(rule) {
+        return rule.getRules();
+      }
+    }
+  })
+  .when('/verbs', {
+    controller:'verbController',
+    templateUrl:'/views/verbs.html',
+    resolve: {
+      verbs: function(verb) {
+        return verb.getVerbs();
       }
     }
   })

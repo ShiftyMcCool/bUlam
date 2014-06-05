@@ -1,0 +1,39 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li><a ng-href="#/">Home</a></li>
+    <li><a ng-href="#/alphabet">Alphabet</a></li>
+    <li><a ng-href="#/rules">Rules</a></li>
+    <li class="active"><a ng-href="#/verbs">Verbs</a></li>
+    <li><a ng-href="#/">Math</a></li>
+    <li><a ng-href="#">Examples</a></li>
+    <li><a ng-href="#">Dictionary</a></li>
+  </ul>
+  <h3 class="text-muted"><span class="bUlam">bUlam</span> (bUlam)</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>Verbs</h1>
+
+  <table class="alphabet">
+    <tr>
+      <td class="alphabet">Type</td>
+      <td class="alphabet">SubType</td>
+      <td class="alphabet">Tense</td>
+      <td class="alphabet">Verb Part</td>
+      <td class="alphabet">English</td>
+      <td class="alphabet">bUlam</td>
+    </tr>
+    <tr ng-repeat="verb in verbs">
+      <td class="alphabet">{{verb.type}}</td> 
+      <td class="alphabet">{{verb.subtype}}</td> 
+      <td class="alphabet">{{verb.tense}}</td> 
+      <td class="alphabet">{{verb.verbPart}}</td> 
+      <td class="alphabet">{{verb.english}}</td>
+      <td class="alphabet bUlam">{{verb.bUlam}}</td> 
+    </tr>
+  </table>
+</div>
+
+<div class="footer">
+  <p>bUlam</p>
+</div>
