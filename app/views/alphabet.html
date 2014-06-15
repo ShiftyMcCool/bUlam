@@ -4,7 +4,7 @@
     <li class="active"><a ng-href="#/alphabet">Alphabet</a></li>
     <li><a ng-href="#/rules">Rules</a></li>
     <li><a ng-href="#/verbs">Verbs</a></li>
-    <li><a ng-href="#/">Math</a></li>
+    <li><a ng-href="#/numbers">Numbers</a></li>
     <li><a ng-href="#">Examples</a></li>
     <li><a ng-href="#">Dictionary</a></li>
   </ul>
@@ -14,20 +14,49 @@
 <div class="jumbotron">
   <h1>Alphabet</h1>
 
+  <h3>Vowels</h3>
   <table class="alphabet">
     <tr>
-      <td class="alphabet">Key</td>
-      <td class="alphabet">Glyph</td>
-      <td class="alphabet">Sound</td>
-      <td class="alphabet">Meaning</td>
+      <td class="border">Key</td>
+      <td class="border">Glyph</td>
+      <td class="border">Sound</td>
+      <td class="border">Meaning</td>
     </tr>
-    <tr ng-repeat="glyph in consonants">
-      <td class="alphabet">{{glyph.key}}</td> 
-      <td class="alphabet bUlam">{{glyph.key}}</td> 
-      <td class="alphabet">{{glyph.sound}}</td> 
-      <td class="alphabet">{{glyph.meaning}}</td>
+    <tr ng-repeat="glyph in vowels">
+      <td class="border">{{glyph.key}}</td> 
+      <td class="border bUlam">{{glyph.key}}</td> 
+      <td class="border">{{glyph.sound}}</td> 
+      <td class="border">{{glyph.meaning}}</td>
     </tr>
   </table>
+
+  <h3>Consonants</h3>
+  <table class="alphabet">
+    <tr>
+      <td class="border">Key</td>
+      <td class="border">Glyph</td>
+      <td class="border">Sound</td>
+      <td class="border">Meaning</td>
+    </tr>
+    <tr ng-repeat="glyph in consonants">
+      <td class="border">{{glyph.key}}</td> 
+      <td class="border bUlam">{{glyph.key}}</td> 
+      <td class="border">{{glyph.sound}}</td> 
+      <td class="border">{{glyph.meaning}}</td>
+    </tr>
+  </table>
+
+  <h3>Punctuation</h3>
+  <table class="alphabet">
+    <tr>
+      <td class="border">Key</td>
+      <td class="border">Glyph</td>
+    </tr>
+    <tr ng-repeat="glyph in puncMarks">
+      <td class="border">{{glyph.key}}</td> 
+      <td class="border bUlam">{{glyph.key}}</td> 
+    </tr>
+  </table>  
 </div>
 
 <div class="footer">

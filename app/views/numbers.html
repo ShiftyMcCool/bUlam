@@ -1,0 +1,52 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li><a ng-href="#/">Home</a></li>
+    <li><a ng-href="#/alphabet">Alphabet</a></li>
+    <li><a ng-href="#/rules">Rules</a></li>
+    <li><a ng-href="#/verbs">Verbs</a></li>
+    <li class="active"><a ng-href="#/numbers">Numbers</a></li>
+    <li><a ng-href="#">Examples</a></li>
+    <li><a ng-href="#">Dictionary</a></li>
+  </ul>
+  <h3 class="text-muted"><span class="bUlam">bUlam</span> (bUlam)</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>Numbers and Math</h1>
+
+  <h3>Numbers</h3>
+  <table class="alphabet">
+    <tr>
+      <td class="border">Numeral</td>
+      <td class="border">cakte</td>
+      <td class="border">bUlam</td>
+      <td class="border">English</td>
+    </tr>
+    <tr ng-repeat="number in numbers">
+      <td class="border">{{number.numeral}}</td> 
+      <td class="border bUlam">{{number.numeral}}</td> 
+      <td class="border bUlam">{{number.spelling}}</td> 
+      <td class="border">{{number.spelling}}</td>
+    </tr>
+  </table>
+
+  <h3>Math</h3>
+  <table class="alphabet">
+    <tr>
+      <td class="border">Equation</td>
+      <td class="border">caktez</td>
+      <td class="border">bUlam</td>
+      <td class="border">English</td>
+    </tr>
+    <tr ng-repeat="equation in equations">
+      <td class="border">{{equation.numeral}}</td> 
+      <td class="border bUlam">{{equation.numeral}}</td> 
+      <td class="border bUlam">{{equation.spelling}}</td> 
+      <td class="border">{{equation.spelling}}</td>
+    </tr>
+  </table>
+</div>
+
+<div class="footer">
+  <p>bUlam</p>
+</div>

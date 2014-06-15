@@ -8,7 +8,8 @@ var app = angular.module('bUlamApp', [
   'controller',
   'alphabetService',
   'ruleService',
-  'verbService'
+  'verbService',
+  'numberService'
 ]);
 
 app.config(function($routeProvider) {
@@ -24,7 +25,10 @@ app.config(function($routeProvider) {
         return alphabet.getAlphabet('vowel');
       },
       consonants: function(alphabet) {
-        return alphabet.getAlphabet();
+        return alphabet.getAlphabet('consonant');
+      },
+      puncMarks: function(alphabet) {
+        return alphabet.getAlphabet('punctuation');
       }
     }
   })
@@ -43,6 +47,18 @@ app.config(function($routeProvider) {
     resolve: {
       verbs: function(verb) {
         return verb.getVerbs();
+      }
+    }
+  })
+  .when('/numbers', {
+    controller:'numberController',
+    templateUrl:'/views/numbers.html',
+    resolve: {
+      numbers: function(number) {
+        return number.getNumbers('number');
+      },
+      equations: function(number) {
+        return number.getNumbers('math');
       }
     }
   })

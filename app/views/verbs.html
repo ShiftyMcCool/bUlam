@@ -4,7 +4,7 @@
     <li><a ng-href="#/alphabet">Alphabet</a></li>
     <li><a ng-href="#/rules">Rules</a></li>
     <li class="active"><a ng-href="#/verbs">Verbs</a></li>
-    <li><a ng-href="#/">Math</a></li>
+    <li><a ng-href="#/numbers">Numbers</a></li>
     <li><a ng-href="#">Examples</a></li>
     <li><a ng-href="#">Dictionary</a></li>
   </ul>
@@ -16,20 +16,20 @@
 
   <table class="alphabet">
     <tr>
-      <td class="alphabet">Type</td>
-      <td class="alphabet">SubType</td>
-      <td class="alphabet">Tense</td>
-      <td class="alphabet">Verb Part</td>
-      <td class="alphabet">English</td>
-      <td class="alphabet">bUlam</td>
+      <td class="border">Type</td>
+      <td class="border">SubType</td>
+      <td class="border">Tense</td>
+      <td class="border">Verb Part</td>
+      <td class="border">English</td>
+      <td class="border">bUlam</td>
     </tr>
     <tr ng-repeat="verb in verbs">
-      <td class="alphabet">{{verb.type}}</td> 
-      <td class="alphabet">{{verb.subtype}}</td> 
-      <td class="alphabet">{{verb.tense}}</td> 
-      <td class="alphabet">{{verb.verbPart}}</td> 
-      <td class="alphabet">{{verb.english}}</td>
-      <td class="alphabet bUlam">{{verb.bUlam}}</td> 
+      <td class="border">{{verb.type}}</td> 
+      <td class="border">{{verb.subtype}}</td> 
+      <td class="border">{{verb.tense}}</td> 
+      <td class="border">{{verb.verbPart}}</td> 
+      <td class="border">{{verb.english}}</td>
+      <td class="border bUlam">{{verb.bUlam}}</td> 
     </tr>
   </table>
 </div>

@@ -4,7 +4,7 @@
     <li><a ng-href="#/alphabet">Alphabet</a></li>
     <li class="active"><a ng-href="#/rules">Rules</a></li>
     <li><a ng-href="#/verbs">Verbs</a></li>
-    <li><a ng-href="#/">Math</a></li>
+    <li><a ng-href="#/numbers">Numbers</a></li>
     <li><a ng-href="#">Examples</a></li>
     <li><a ng-href="#">Dictionary</a></li>
   </ul>
@@ -16,16 +16,16 @@
 
   <table class="alphabet">
     <tr>
-      <td class="alphabet">Type</td>
-      <td class="alphabet">Rule</td>
-      <td class="alphabet">Example</td>
-      <td class="alphabet">Notes</td>
+      <td class="border">Type</td>
+      <td class="border">Rule</td>
+      <td class="border">Example</td>
+      <td class="border">Notes</td>
     </tr>
     <tr ng-repeat="rule in rules">
-      <td class="alphabet">{{rule.type}}</td> 
-      <td class="alphabet">{{rule.rule}}</td> 
-      <td class="alphabet bUlam">{{rule.example}}</td> 
-      <td class="alphabet">{{rule.notes}}</td>
+      <td class="border">{{rule.type}}</td> 
+      <td class="border">{{rule.rule}}</td> 
+      <td class="border bUlam">{{rule.example}}</td> 
+      <td class="border">{{rule.notes}}</td>
     </tr>
   </table>
 </div>
