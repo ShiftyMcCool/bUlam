@@ -3,7 +3,7 @@ var port = parseInt(process.env.PORT, 10) || 8080,
 	bodyParser = require('body-parser'),
 	app = express(),
 	alphabet = require('./routes/alphabet'),
-	math = require('./routes/math'),
+	numbers = require('./routes/numbers'),
 	rules = require('./routes/rules'),
 	verbs = require('./routes/verbs');
 
@@ -20,11 +20,11 @@ app.post('/alphabet', alphabet.add);
 app.put('/alphabet/:id', alphabet.update);
 app.delete('/alphabet/:id', alphabet.delete);
 
-app.get('/math', math.getAll);
-app.get('/math/:type', math.getByType);
-app.post('/math', math.add);
-app.put('/math/:id', math.update);
-app.delete('/math/:id', math.delete);
+app.get('/numbers', numbers.getAll);
+app.get('/numbers/:type', numbers.getByType);
+app.post('/numbers', numbers.add);
+app.put('/numbers/:id', numbers.update);
+app.delete('/numbers/:id', numbers.delete);
 
 app.get('/rules', rules.getAll);
 app.get('/rules/:type', rules.getByType);
