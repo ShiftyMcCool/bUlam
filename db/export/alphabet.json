@@ -8,25 +8,31 @@
 { "_id" : { "$oid" : "5384275493ca5492febf2776" }, "type" : "vowel", "key" : "O", "sound" : "ooh - took", "meaning" : "Lessens the meaning of the preceding character" }
 { "_id" : { "$oid" : "5384275493ca5492febf2777" }, "type" : "vowel", "key" : "U", "sound" : "oo - boot", "meaning" : "Combines the meanings of preceding and following characters" }
 { "_id" : { "$oid" : "5384275493ca5492febf2778" }, "type" : "vowel", "key" : "u", "sound" : "uh - cut", "meaning" : "Negates the meaning of the preceding character" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf2779" }, "type" : "consonent", "key" : "b", "sound" : "b", "meaning" : "Sounds, vibrations" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf277a" }, "type" : "consonent", "key" : "d", "sound" : "d", "meaning" : "Body parts" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf277b" }, "type" : "consonent", "key" : "f", "sound" : "f", "meaning" : "Emotions" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf277c" }, "type" : "consonent", "key" : "g", "sound" : "g - go", "meaning" : "Earth-related substances: stone, dirt, gravel, metal" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf277d" }, "type" : "consonent", "key" : "h", "sound" : "h", "meaning" : "Climate, weather" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf277e" }, "type" : "consonent", "key" : "j", "sound" : "j", "meaning" : "Time" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf277f" }, "type" : "consonent", "key" : "k", "sound" : "k", "meaning" : "Power, makes violent words non-violent (see K)" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf2780" }, "type" : "consonent", "key" : "l", "sound" : "l", "meaning" : "Visual markings: writing, art" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf2781" }, "type" : "consonent", "key" : "m", "sound" : "m", "meaning" : "Man-made objects/ideas" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf2782" }, "type" : "consonent", "key" : "n", "sound" : "n", "meaning" : "Branched things" }
-{ "_id" : { "$oid" : "538428eb93ca5492febf2783" }, "type" : "consonent", "key" : "p", "sound" : "p", "meaning" : "Light, heat" }
-{ "_id" : { "$oid" : "538429f593ca5492febf2784" }, "type" : "consonent", "key" : "r", "sound" : "r", "meaning" : "Living things" }
-{ "_id" : { "$oid" : "538429f593ca5492febf2785" }, "type" : "consonent", "key" : "s", "sound" : "s", "meaning" : "Multiples, numbers, things meeting/joining" }
-{ "_id" : { "$oid" : "538429f593ca5492febf2786" }, "type" : "consonent", "key" : "t", "sound" : "t", "meaning" : "Environment, terrain" }
-{ "_id" : { "$oid" : "538429f593ca5492febf2787" }, "type" : "consonent", "key" : "v", "sound" : "v", "meaning" : "Layers" }
-{ "_id" : { "$oid" : "538429f593ca5492febf2788" }, "type" : "consonent", "key" : "z", "sound" : "z", "meaning" : "Large in size" }
-{ "_id" : { "$oid" : "538429f593ca5492febf2789" }, "type" : "consonent", "key" : "N", "sound" : "ng - tang", "meaning" : "Liquids" }
-{ "_id" : { "$oid" : "538429f593ca5492febf278a" }, "type" : "consonent", "key" : "T", "sound" : "th - thin", "meaning" : "Edible things" }
-{ "_id" : { "$oid" : "538429f593ca5492febf278b" }, "type" : "consonent", "key" : "c", "sound" : "ch - chin", "meaning" : "Vehicles, transportation, motion" }
-{ "_id" : { "$oid" : "538429f593ca5492febf278c" }, "type" : "consonent", "key" : "K", "sound" : "kh - ich", "meaning" : "War, violence, objects used for violent purposes" }
-{ "_id" : { "$oid" : "538429f593ca5492febf278d" }, "type" : "consonent", "key" : "Z", "sound" : "jj - hajj", "meaning" : "Things that contain other things" }
-{ "_id" : { "$oid" : "538429f593ca5492febf278e" }, "type" : "consonent", "key" : "S", "sound" : "sh - shin", "meaning" : "Air, gasses, breath" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf2779" }, "type" : "consonant", "key" : "b", "sound" : "b", "meaning" : "Sounds, vibrations" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf277a" }, "type" : "consonant", "key" : "d", "sound" : "d", "meaning" : "Body parts" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf277b" }, "type" : "consonant", "key" : "f", "sound" : "f", "meaning" : "Emotions" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf277c" }, "type" : "consonant", "key" : "g", "sound" : "g - go", "meaning" : "Earth-related substances: stone, dirt, gravel, metal" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf277d" }, "type" : "consonant", "key" : "h", "sound" : "h", "meaning" : "Climate, weather" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf277e" }, "type" : "consonant", "key" : "j", "sound" : "j", "meaning" : "Time" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf277f" }, "type" : "consonant", "key" : "k", "sound" : "k", "meaning" : "Power, makes violent words non-violent (see K)" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf2780" }, "type" : "consonant", "key" : "l", "sound" : "l", "meaning" : "Visual markings: writing, art" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf2781" }, "type" : "consonant", "key" : "m", "sound" : "m", "meaning" : "Man-made objects/ideas" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf2782" }, "type" : "consonant", "key" : "n", "sound" : "n", "meaning" : "Branched things" }
+{ "_id" : { "$oid" : "538428eb93ca5492febf2783" }, "type" : "consonant", "key" : "p", "sound" : "p", "meaning" : "Light, heat" }
+{ "_id" : { "$oid" : "538429f593ca5492febf2784" }, "type" : "consonant", "key" : "r", "sound" : "r", "meaning" : "Living things" }
+{ "_id" : { "$oid" : "538429f593ca5492febf2785" }, "type" : "consonant", "key" : "s", "sound" : "s", "meaning" : "Multiples, numbers, things meeting/joining" }
+{ "_id" : { "$oid" : "538429f593ca5492febf2786" }, "type" : "consonant", "key" : "t", "sound" : "t", "meaning" : "Environment, terrain" }
+{ "_id" : { "$oid" : "538429f593ca5492febf2787" }, "type" : "consonant", "key" : "v", "sound" : "v", "meaning" : "Layers" }
+{ "_id" : { "$oid" : "538429f593ca5492febf2788" }, "type" : "consonant", "key" : "z", "sound" : "z", "meaning" : "Large in size" }
+{ "_id" : { "$oid" : "538429f593ca5492febf2789" }, "type" : "consonant", "key" : "N", "sound" : "ng - tang", "meaning" : "Liquids" }
+{ "_id" : { "$oid" : "538429f593ca5492febf278a" }, "type" : "consonant", "key" : "T", "sound" : "th - thin", "meaning" : "Edible things" }
+{ "_id" : { "$oid" : "538429f593ca5492febf278b" }, "type" : "consonant", "key" : "c", "sound" : "ch - chin", "meaning" : "Vehicles, transportation, motion" }
+{ "_id" : { "$oid" : "538429f593ca5492febf278c" }, "type" : "consonant", "key" : "K", "sound" : "kh - ich", "meaning" : "War, violence, objects used for violent purposes" }
+{ "_id" : { "$oid" : "538429f593ca5492febf278d" }, "type" : "consonant", "key" : "Z", "sound" : "jj - hajj", "meaning" : "Things that contain other things" }
+{ "_id" : { "$oid" : "538429f593ca5492febf278e" }, "type" : "consonant", "key" : "S", "sound" : "sh - shin", "meaning" : "Air, gasses, breath" }
+{ "_id" : { "$oid" : "538ff98bf51c30ebc2d8886b" }, "type" : "punctuation", "key" : "." }
+{ "_id" : { "$oid" : "538ff98bf51c30ebc2d8886c" }, "type" : "punctuation", "key" : "," }
+{ "_id" : { "$oid" : "538ff98bf51c30ebc2d8886d" }, "type" : "punctuation", "key" : "?" }
+{ "_id" : { "$oid" : "538ff98bf51c30ebc2d8886e" }, "type" : "punctuation", "key" : "!" }
+{ "_id" : { "$oid" : "538ff98bf51c30ebc2d8886f" }, "type" : "punctuation", "key" : "'" }
+{ "_id" : { "$oid" : "538ff98bf51c30ebc2d88870" }, "type" : "punctuation", "key" : "\"" }
