@@ -22,13 +22,13 @@ app.config(function($routeProvider) {
     templateUrl:'/views/alphabet.html',
     resolve: {
       vowels: function(alphabet) {
-        return alphabet.getAlphabet('vowel');
+        return alphabet.getAlphabet('type','vowel');
       },
       consonants: function(alphabet) {
-        return alphabet.getAlphabet('consonant');
+        return alphabet.getAlphabet('type','consonant');
       },
       puncMarks: function(alphabet) {
-        return alphabet.getAlphabet('punctuation');
+        return alphabet.getAlphabet('type','punctuation');
       }
     }
   })
@@ -55,10 +55,10 @@ app.config(function($routeProvider) {
     templateUrl:'/views/numbers.html',
     resolve: {
       numbers: function(number) {
-        return number.getNumbers('number');
+        return number.getNumbers('type','number');
       },
       equations: function(number) {
-        return number.getNumbers('math');
+        return number.getNumbers('type','math');
       }
     }
   })

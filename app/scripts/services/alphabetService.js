@@ -4,15 +4,14 @@ var alphaService = angular.module('alphabetService',[]);
 
 alphaService.factory('alphabet', function($http, $q, $timeout){
   return {
-    getAlphabet: function(charSet) {
+    getAlphabet: function(key,value) {
       var defer = $q.defer();
       var url = 'http://localhost:8080/alphabet/';
 
-      if(typeof(charSet) != 'undefined') {
-        url += charSet;
+      if(typeof(key) != 'undefined' && typeof(value) !== 'undefined') {
+        url += key + '/' + value;
       }
 
-      //$http.get('http://localhost:8080/get').success(function(data, status, headers, config){
       $http.get(url).success(function(data, status, headers, config){
         //$timeout(function() {
           defer.resolve(data);
